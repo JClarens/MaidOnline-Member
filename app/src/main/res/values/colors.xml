@@ -5,9 +5,14 @@
     <!--<color name="colorAccent">#FF4081</color>-->
 
 
-    <color name="colorPrimaryDark">#408cab</color>
-    <color name="colorPrimary">#4ba3c7</color>
-    <color name="colorSecondary">#52b5de</color>
+    <color name="colorPrimaryDark">#b4004e</color>
+    <color name="colorPrimaryLight">#ff77a9</color>
+    <color name="colorPrimary">#ec407a</color>
+
+    <color name="colorSecondary">#40c4ff</color>
+    <color name="colorSecondaryLight">#82f7ff</color>
+    <color name="colorSecondaryDark">#0094cc</color>
+
     <color name="colorAccent">#63d8ff</color>
     <color name="colorCheck">#ffffff</color>
     <color name="colorUncheck">#B2D7D2</color>
