@@ -9,14 +9,13 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.MenuItem;
 import android.widget.FrameLayout;
-import android.widget.Toast;
 
 import com.example.jclarens.maidonline.R;
 import com.example.jclarens.maidonline.View.Fragment.FragmentCari;
 import com.example.jclarens.maidonline.View.Fragment.FragmentHome;
 import com.example.jclarens.maidonline.View.Fragment.FragmentLainnya;
 import com.example.jclarens.maidonline.View.Fragment.FragmentPesan;
-import com.example.jclarens.maidonline.View.Fragment.FragmentStatus;
+import com.example.jclarens.maidonline.View.Fragment.FragmentTransaksi;
 
 public class MainActivity extends AppCompatActivity {
     private Fragment fragment;
@@ -26,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
     private FrameLayout frameLayout;
 //    private FragmentHome fragmentHome = new FragmentHome();
 //    private FragmentCari fragmentCari = new FragmentCari();
-//    private FragmentStatus fragmentStatus = new FragmentStatus();
+//    private FragmentTransaksi fragmentStatus = new FragmentTransaksi();
 //    private FragmentPesan fragmenPesan = new FragmentPesan();
 //    private FragmentLainnya fragmentLainnya = new FragmentLainnya();
 
@@ -64,7 +63,7 @@ public class MainActivity extends AppCompatActivity {
 //                        if (SharedPref.getValueString(ConstClass.USER) == "")
 //                            fragment = new FragmentUnauthorized();
 //                        else
-                        fragment = new FragmentStatus();
+                        fragment = new FragmentTransaksi();
                         break;
                     case R.id.menu_pesan:
 //                        Toast.makeText(MainActivity.this,"Pesan",Toast.LENGTH_LONG).show();
