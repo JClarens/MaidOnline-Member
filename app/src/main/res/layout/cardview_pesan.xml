@@ -34,7 +34,7 @@
             android:layout_alignTop="@+id/imgv_pesan"
             android:layout_toEndOf="@+id/imgv_pesan"
             android:layout_toRightOf="@+id/imgv_pesan"
-            android:text="-"
+            android:text="Nama Pesan"
             android:textColor="@android:color/black"
             android:textSize="18sp"
             android:textStyle="bold" />
@@ -46,7 +46,7 @@
             android:layout_below="@+id/nama_pesan"
             android:layout_toEndOf="@+id/imgv_pesan"
             android:layout_toRightOf="@+id/imgv_pesan"
-            android:text="-"
+            android:text="Tanggal"
             android:textColor="@android:color/black"
             android:textSize="16sp" />
 
@@ -57,7 +57,7 @@
             android:layout_below="@+id/tanggal_pesan"
             android:layout_toEndOf="@+id/imgv_pesan"
             android:layout_toRightOf="@+id/imgv_pesan"
-            android:text="-"
+            android:text="Waktu"
             android:textColor="@android:color/black"
             android:textSize="16sp" />
 
@@ -68,7 +68,7 @@
             android:layout_below="@id/waktu_pesan"
             android:layout_toEndOf="@+id/imgv_pesan"
             android:layout_toRightOf="@+id/imgv_pesan"
-            android:text="-"
+            android:text="Subject"
             android:textColor="@android:color/black"
             android:textSize="12sp" />
     </RelativeLayout>
